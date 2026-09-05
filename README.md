@@ -1,10 +1,18 @@
 # A1m0nd-bao
 
-I build practical tools at the intersection of creative production, AI agents, and interactive web experiences.
+I design and build motion-led web experiences and practical tools at the intersection of interaction design, creative production, and AI agents.
 
-My projects are usually workflow-driven: take a messy or repetitive process, make the important steps visible, and turn it into something people can actually use.
+Motion is a major part of how I think about interfaces: not decoration added at the end, but a way to establish hierarchy, explain state, and make an interaction feel understandable.
 
 ## What I’ve built
+
+### Motion design and interactive experiences
+
+I use web prototypes and small visual studies to explore how timing, transitions, composition, and feedback shape the feeling of a product. My work ranges from hero-section motion and interactive presentation to reusable Lottie asset workflows.
+
+[Neon Hero Motion Study](https://github.com/A1m0nd-bao/neon-hero-motion-study) focuses on visual rhythm and presentation quality, while [Loci Motion Preview](https://github.com/A1m0nd-bao/loci-motion-preview) turns a growing collection of Lottie JSON files into a searchable, browsable motion library with playback controls, filtering, and Feishu Sheets synchronization.
+
+The goal is always the same: make motion purposeful, easy to review, and practical to reuse in real interfaces.
 
 ### Live2D production workflow
 
@@ -24,15 +32,16 @@ In [OWCS Champions Clash Predictor](https://github.com/A1m0nd-bao/owcs-champions
 
 The interface turns GSL groups, playoffs, the third-place match, and the final into a click-through experience that automatically advances winners and presents the predicted podium. It is a small project, but it reflects how I like to work: clear state, direct interaction, and no unnecessary complexity.
 
-### Motion and asset tooling
+### Personal blog
 
-[Loci Motion Preview](https://github.com/A1m0nd-bao/loci-motion-preview) is a Lottie preview library with search, categories, grid/list views, playback controls, and local JSON drop-in support. It also includes a Feishu Sheets sync workflow that can download new animation assets, rebuild the manifest, and publish updates to GitHub Pages.
+[Almond Blog](https://a1m0nd-bao.github.io/Almond_blog/) is my personal blog and a record of my experiments, notes, and web projects. The repository is available at [A1m0nd-bao/Almond_blog](https://github.com/A1m0nd-bao/Almond_blog).
 
-I also use smaller motion studies such as [Neon Hero Motion Study](https://github.com/A1m0nd-bao/neon-hero-motion-study) to explore composition, movement, and presentation quality.
+It is part of the same practice: document what I learn, publish small ideas, and use the web itself as a space for visual and interaction experiments.
 
 ## How I work
 
-- Start with the real workflow, not the feature list.
+- Start with the feeling and the real workflow, not the feature list.
+- Use motion to clarify hierarchy, state, and cause-and-effect.
 - Make state and handoffs visible so users know what happens next.
 - Keep integrations replaceable and credentials server-side.
 - Prefer small, shippable tools over impressive-looking demos.
